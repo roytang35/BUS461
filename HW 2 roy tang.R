@@ -3,7 +3,7 @@ download.file(url, destfile = "Bankinfodataset")
 bankdf<-(read.csv("Bankinfodataset",TRUE,sep = ";"))
 head(bankdf)
 
-Question 2:
+Question 2
   
 targetCustomers <- function(df, job, loan, education, minThreshold=4) {
   bankdf[df$job=="job"] 
